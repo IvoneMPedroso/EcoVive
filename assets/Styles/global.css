@@ -8,6 +8,18 @@
     font-family: "Preahvihear", sans-serif;
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+
+header img{
+  max-width: 100px;
+}
+
 .cardo-regular {
     font-family: "Cardo", serif;
     font-weight: 400;
@@ -47,4 +59,43 @@ section, footer{
     --verdeClaro: #45933b;
     --verdeMedio: #125017;
     --verdeEscuro: #0c2e08;
+}
+
+@media (max-width: 768px) {
+  #menu ul {
+    flex-direction: colum;
+    align-items: center;
+  }
+
+  .produto {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .produto img{
+    width: 100%;
+  }  
+}
+
+@media (max-width: 468px){
+  #inicio h1{
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+
+  .produto {
+    flex-direction: column;
+  }
+
+  header img {
+    max-width: 70px;
+  }
+
+  #menu ul {
+    gap: 10px;
+  }
+
+  .fundoDesfocado {
+    padding: 5px;
+  }
 }

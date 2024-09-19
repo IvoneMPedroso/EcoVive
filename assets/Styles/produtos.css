@@ -9,6 +9,11 @@
     margin-bottom: 100px;
 }
 
+#produtos h1{
+    font-size: var(--fonteTitulo);
+    text-align: center;
+}
+
 .produto div {
     padding: 30px;
 }
@@ -18,7 +23,7 @@
     color: var(--verdeClaro);
 }
 
-.produto h1{
+.produto h2{
     font-size: var(--fonteSubtitulo);
 }
 
