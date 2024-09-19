@@ -1,0 +1,27 @@
+#sobre{
+    width: 100%;
+    background-color: var(--corFundo);
+    color: var(--corBranco);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+.inicioSobre h2{
+    font-size: var(--fonteTitulo);
+}
+
+.inicioSobre h3{
+    font-size: var(--fonteParagrafo);
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.inicioSobre p{
+    font-size: var(--fonteParagrafo);
+    width: 75%;
+}
+
+.inicioSobre a{
+    color: #04a7b3;
+}

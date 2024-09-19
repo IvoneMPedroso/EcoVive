@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Preahvihear", sans-serif;
+}
+
+.cardo-regular {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cardo-bold {
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.preahvihear-regular {
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    background-color: var(--corFundo);
+    color: var(--corBranco);
+}
+
+section, footer{
+    padding: 0px 15%;
+}
+
+:root{
+    --fonteTitulo: 50px;
+    --fonteSubtitulo: 35px;
+    --fonteParagrafo: 20px;
+    --fonteDetalhes: 14px;
+
+    
+    --corFundo: #071f07;
+    --corBranco: #ffffff;
+    --verdeClaro: #45933b;
+    --verdeMedio: #125017;
+    --verdeEscuro: #0c2e08;
+}

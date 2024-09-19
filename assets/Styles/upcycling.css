@@ -1,0 +1,63 @@
+.section-image2{
+    width: 100%;
+    height: 500px;
+    padding: 40px 4%;
+    border-radius: 20px;
+    background-image: url("/assets/images/image3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#upcycling{
+    padding-bottom: 100px;
+    padding-top: 75px;
+    text-align: center;
+}
+
+#upcycling h1{
+    font-family: "Cardo";
+    font-size: var(--fonteSubtitulo);
+    margin-bottom: 35px;
+}
+
+.upcyContainer > div{
+    width: 45%;
+    height: 300px;
+    background-color: var(--verdeMedio);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 2%;
+    margin-top: 75px;
+    padding: 30px;
+    border-top: 5px solid var(--verdeClaro);
+    border-radius: 30px;
+    background: linear-gradient(130deg, var(--verdeEscuro) 0%, var(--verdeMedio) 50%, var(--verdeClaro) 100%);
+    transition: all .5s;
+}
+
+.upcyContainer > div{
+    width: 45%;
+    height: 300px;
+    background-color: var(--verdeMedio);
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    padding: 30px;
+    border-top: 5px solid var(--verdeClaro);
+    border-radius: 30px;
+    background: linear-gradient(130deg, var(--verdeEscuro) 0%, var(--verdeMedio) 50%, var(--verdeClaro) 100%);
+    transition: all .5s
+}
+
+.upcyContainer > div:hover{
+    transform: scale(1.2);
+}
+
+.upcyContainer > div h2{
+    font-size: var(--fonteSubtitulo); 
+}
+

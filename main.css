@@ -1,0 +1,11 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Preahvihear&display=swap');
+@import url(./assets/Styles/global.css); 
+@import url(./assets/Styles/navegacao.css);
+@import url(./assets/Styles/sobre.css);
+@import url(./assets/Styles/upcycling.css);
+@import url(./assets/Styles/produtos.css);
+@import url(./assets/Styles/contato.css);
+@import url(./assets/Styles/rodape.css);
+@import url(./assets/Styles/botao-fixo.css);
+@import url(./assets/Styles/media.css);

@@ -1,0 +1,25 @@
+#botao-fixo{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 50px;
+    background-color: #0c2e08;
+    color: #ffff;
+    padding: 10px 22px;
+    border-radius: 50px;
+    opacity: 0;
+  }
+  
+  #botao-fixo:hover{
+    background-color: #0c2e08;
+    color: #45933b;
+  }
+  
+  @media(max-width: 480px){
+    #botao-fixo{
+      bottom: 15px;
+      right: 15px;
+      font-size: 30px;
+      padding: 8px 16px;
+    }
+  }
