@@ -10,11 +10,6 @@
     position: fixed;
 }
 
-#navegacao ul{
-    display: flex;
-    flex-direction: row;
-}
-
 
 #navegacao a{
     color: var(--corBranco);

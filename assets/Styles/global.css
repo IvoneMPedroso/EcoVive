@@ -61,41 +61,68 @@ section, footer{
     --verdeEscuro: #0c2e08;
 }
 
+/* Default menu setup */
+#menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Hide the hamburger icon on larger screens */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Media query for smaller screens */
 @media (max-width: 768px) {
+  /* Hide the regular menu on small screens */
   #menu ul {
-    flex-direction: colum;
-    align-items: center;
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;  /* Positioned below the header */
+      right: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 0;
   }
 
-  .produto {
-    flex-direction: column;
-    text-align: center;
+  /* Show the menu when it's toggled */
+  #menu.active ul {
+      display: flex;
   }
 
-  .produto img{
-    width: 100%;
-  }  
+  /* Adjust menu items for small screens */
+  #menu ul li {
+      width: 100%;
+      text-align: center;
+      padding: 15px;
+  }
+
+  #menu ul li:last-child {
+      border-bottom: none;
+  }
+
+  /* Show hamburger icon */
+  .hamburger {
+      display: block;
+      position: absolute;
+      top: 15px;
+      right: 20px;
+  }
+
+  /* Prevent the menu from overlapping the logo */
+  header {
+      position: relative;
+  }
 }
 
-@media (max-width: 468px){
-  #inicio h1{
-    font-size: 2rem;
-    margin-top: 50px;
-  }
-
-  .produto {
-    flex-direction: column;
-  }
-
-  header img {
-    max-width: 70px;
-  }
-
-  #menu ul {
-    gap: 10px;
-  }
-
-  .fundoDesfocado {
-    padding: 5px;
-  }
-}
